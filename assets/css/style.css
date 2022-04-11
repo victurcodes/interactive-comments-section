@@ -43,7 +43,7 @@
     
     .life-span {
         color: rgb(156, 149, 149);
-        font-size: 18px;
+        font-size: 16px;
         font-weight: none;
         padding-left: 15px;
     }
@@ -87,12 +87,12 @@
         background: var(--Light-grayish-blue);
         padding-top: 20px;
         padding-bottom: 5px;
-        scroll-behavior: smooth;
     }
     
     .main-wrapper .main .container {
-        height: 60vh;
+        height: 92vh;
         overflow-y: auto;
+        scroll-behavior: smooth;
     }
     
     .combine {
@@ -187,8 +187,8 @@
     
     .main-wrapper .main .four .article-four-navber {
         display: flex;
-        gap: 5px;
-        padding-bottom: 15px;
+        gap: 4px;
+        padding-bottom: 14px;
         align-items: center;
     }
     
