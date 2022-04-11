@@ -366,10 +366,13 @@
         }
         .main-wrapper .main .four-reply-area {
             padding-bottom: 1rem;
-            margin-bottom: 3rem;
+            margin-bottom: 10px;
         }
         .main-wrapper .main .container {
-            height: 50vh;
+            height: 60vh;
             overflow-y: auto;
+        }
+        .main-wrapper .main {
+            height: 100vh;
         }
     }
