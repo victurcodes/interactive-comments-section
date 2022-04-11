@@ -87,6 +87,12 @@
         background: var(--Light-grayish-blue);
         padding-top: 20px;
         padding-bottom: 5px;
+        scroll-behavior: smooth;
+    }
+    
+    .main-wrapper .main .container {
+        height: 60vh;
+        overflow-y: auto;
     }
     
     .combine {
@@ -181,7 +187,7 @@
     
     .main-wrapper .main .four .article-four-navber {
         display: flex;
-        gap: 8px;
+        gap: 5px;
         padding-bottom: 15px;
         align-items: center;
     }
@@ -189,7 +195,7 @@
     .main-wrapper .main .four .article-four-navber .name .you {
         color: white;
         background: var(--Moderate-blue);
-        padding: 2px 6px;
+        padding: 2px 5px;
         font-weight: none;
         font-family: initial;
         border-radius: 4px;
@@ -222,6 +228,8 @@
     .main-wrapper .main .four-reply-area {
         position: relative;
         padding-bottom: 4rem;
+        position: sticky;
+        bottom: 20px;
     }
     
     .main-wrapper .main .four-reply-area>textarea {
@@ -286,6 +294,8 @@
             margin: 0 auto;
             margin-top: 10px;
             padding: 20px 20px 20px 7rem;
+            position: sticky;
+            bottom: 3rem;
         }
         .left {
             position: absolute;
@@ -357,5 +367,9 @@
         .main-wrapper .main .four-reply-area {
             padding-bottom: 1rem;
             margin-bottom: 3rem;
+        }
+        .main-wrapper .main .container {
+            height: 60vh;
+            overflow-y: auto;
         }
     }
