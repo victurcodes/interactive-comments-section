@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Interactive comments section</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <section class="main">
+            <article class="one">
+                <div class="article-one-navber">
+                    <span class="image"><img src="./assets/images/images/avatars/image-amyrobson.png" alt=""></span>
+                    <h3 class="name">amyrobson</h3>
+                    <h4 class="life-span">1 month ago</h4>
+                </div>
+                <p class="text"> Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.</p>
+                <div class="article-one-footer">
+                    <div class="left"><span class="icon"><i class="fa-solid fa-plus"></i></span>12<span class="icon"><i class="fa-solid fa-minus"></i></span></div>
+                    <div class="right"><span class="reply-icon"><i class="fa-solid fa-reply"></i></span><span class="reply">Reply</span>
+                    </div>
+                </div>
+            </article>
+            <article class="one-reply-area">
+                <span class="reply-image"><img src="./assets/images/images/avatars/image-juliusomo.webp" alt=""></span>
+                <textarea name="text" id="" cols="30" rows="5"></textarea>
+                <button type="reply">reply</button>
+            </article>
+            <article class="two">
+                <div class="article-two-navber">
+                    <span class="image"><img src="./assets/images/images/avatars/image-maxblagun.png" alt=""></span>
+                    <h3 class="name">maxblagun</h3>
+                    <h4 class="life-span">2 weeks ago</h4>
+                </div>
+                <p class="text"> Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!</p>
+                <div class="article-two-footer">
+                    <div class="left"><span class="icon"><i class="fa-solid fa-plus"></i></span>5<span class="icon"><i class="fa-solid fa-minus"></i></span></div>
+                    <div class="right"><span class="reply-icon"><i class="fa-solid fa-reply"></i></span><span class="reply">Reply</span>
+                    </div>
+                </div>
+            </article>
+            <div class="combine">
+                <article class="three">
+                    <div class="article-three-navber">
+                        <span class="image"><img src="./assets/images/images/avatars/image-ramsesmiron.png" alt=""></span>
+                        <h3 class="name">ramsesmiron</h3>
+                        <h4 class="life-span">1 week ago</h4>
+                    </div>
+                    <p class="text"><span class="at">@maxblagun</span> If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before considering React. It's very tempting to jump ahead but lay a solid foundation first.</p>
+                    <div class="article-three-footer">
+                        <div class="left"><span class="icon"><i class="fa-solid fa-plus"></i></span>4<span class="icon"><i class="fa-solid fa-minus"></i></span></div>
+                        <div class="right"><span class="reply-icon"><i class="fa-solid fa-reply"></i></span><span class="reply">Reply</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="three-reply-area">
+                    <span class="reply-image"><img src="./assets/images/images/avatars/image-juliusomo.webp" alt=""></span>
+                    <textarea name="text" id="" cols="30" rows="10"></textarea>
+                    <button type="reply">reply</button>
+                </article>
+                <article class="four">
+                    <div class="article-four-navber">
+                        <span class="image"><img src="./assets/images/images/avatars/image-juliusomo.png" alt=""></span>
+                        <h3 class="name">juliusomo <span class="you">you</span></h3>
+                        <h4 class="life-span">2 days ago</h4>
+                    </div>
+                    <p class="text"><span class="at">@ramsesmiron</span> I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.</p>
+                    <div class="article-four-footer">
+                        <div class="left"><span class="icon"><i class="fa-solid fa-plus"></i></span>2<span class="icon"><i class="fa-solid fa-minus"></i></span></div>
+                        <div class="right">
+                            <div class="del"><span class="icon-del"><i class="fa-solid fa-trash"></i></span><span class="delete">Delete</span></div>
+                            <div class="ed"><span class="pen"><i class="fa-solid fa-pen"></i></span><span class="Edit">Edit</span></div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <article class="four-reply-area">
+                <span class="reply-image"><img src="./assets/images/images/avatars/image-juliusomo.webp" alt=""></span>
+                <textarea name="text" id="" cols="34" rows="4" placeholder="Add a comment..."></textarea>
+                <button type="send">send</button>
+            </article>
+        </section>
+
+    </div>
+
+
+
+</body>
+
+</html>
