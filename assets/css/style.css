@@ -87,12 +87,12 @@
         background: var(--Light-grayish-blue);
         padding-top: 20px;
         padding-bottom: 5px;
+        scroll-behavior: smooth;
     }
     
     .main-wrapper .main .container {
         height: 70vh;
         overflow-y: auto;
-        scroll-behavior: smooth;
     }
     
     .combine {
@@ -369,7 +369,7 @@
             margin-bottom: 3rem;
         }
         .main-wrapper .main .container {
-            height: 60vh;
+            height: 50vh;
             overflow-y: auto;
         }
     }
